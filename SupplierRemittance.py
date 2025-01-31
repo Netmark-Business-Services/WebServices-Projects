@@ -38,7 +38,6 @@ environments = {
     
 }
 
-
 if current_env not in environments:
     logging.error(f"Invalid environment selected: {current_env}")
     raise ValueError(f"Invalid environment: {current_env}")
@@ -66,7 +65,6 @@ def process_excel(file_path):
     try:
         df = pd.read_excel(file_path)
         
-   
         if 'DateColumn' in df.columns:
             df['DateColumn'] = df['DateColumn'].apply(convert_date_format)
         
