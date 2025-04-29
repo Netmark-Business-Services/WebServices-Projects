@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 0">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="45769.5480550579"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;Your test self-healed automatically. The mapping criteria for the above object were replaced with the criteria of a similar object found during the runtime.&lt;/p&gt;&lt;p&gt;&lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;HealthEdge_Manager.&amp;#8203;HomeForm.&amp;#8203;panelControlDetail.&amp;#8203;homeTab1.&amp;#8203;WidgetsHost.&amp;#8203;&lt;a href=&quot;namemapping://{ECFA1827-71DE-4143-9ECC-8FD5E57DDE83}.{052346DF-23DD-40C4-98B7-0DE1E3C4EAA6}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;WidgetContainer&lt;/span&gt;&lt;/a&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;A similar object has been found &amp;ndash; see the Picture tab.&lt;/p&gt;&lt;table class=&quot;tableIntelegentFix&quot; style=&quot;margin-top: 12px;&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Property&lt;/th&gt;&lt;th&gt;Mapping Value&lt;/th&gt;&lt;th&gt;Found&lt;/th&gt;&lt;th&gt;Action&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody style=&quot;background-color: #f0f0f0;&quot;&gt;&lt;tr&gt;&lt;td&gt;ClrFullClassName&lt;/td&gt;&lt;td&gt;DevExpress.XtraBars.Docking2010.Views.Widget.WidgetContainer&lt;/td&gt;&lt;td&gt;DevExpress.XtraBars.Docking2010.Views.Widget.WidgetContainer&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;WndCaption&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Index&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;Update&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;autofixnamemapping://54Wh5r2zAQAEAHJvb3QLAAQAbW9kZQAAAAAGAGNvbmZpZwEAFQBEZWZhdWx0IENvbmZpZ3VyYXRp&#xA;b24EAHR5cGUBAAsAUmVjb2duaXRpb24HAHBpY2ZpbGUBACoAezA3MkZGNUZGLTE1MjMtNDM0MC1C&#xA;RTY0LUYyQzdBQzVCMUFCOX0ucG5nAgBubQEAJAAwNTIzNDZERngyM0REeDQwQzR4OThCN3gwREUx&#xA;RTNDNEVBQTYBAHIAAN26AAEAYgAAyK8ABwBwcm9qZWN0AQAkAEVDRkExODI3eDcxREV4NDE0M3g5&#xA;RUNDeDhGRDVFNTdEREU4MwEAbAAA1JwAAQB0AADClgAJAHByb3Bjb3VudAAAAwAEAAsAZm91bmR2&#xA;YWx1ZXMDAAEAMQEAAQBAAQAwAQDDsQBANDQwMDY1MDA3NjAwNDUwMDc4MDA3MDAwNzIwMDY1MDA3&#xA;MzAwNzMwMDJFMDA1ODAwNzQwMDcyMDA2MTAwNDIwMDYxMDA3MjAwNzMwMDJFMDA0NDAwNkYwMDYz&#xA;MDA2QjAwNjkwMDZFMDA2NzAwMzIwMDMwMDAzMTAwMzAwMDJFMDA1NjAwNjkwMDY1MDA3NzAwNzMw&#xA;MDJFMDA1NzAwNjkwMDY0MDA2NzAwNjUwMDc0MDAyRTAwNTcwMDY5MDA2NDAwNjcwMDY1MDA3NDAw&#xA;NDMwMDZGMDA2RTAwNzQwMDYxMDA2OTAwNkUwMDY1MDA3MjAwAQAyAQAwADAzMDAwMDAwMDAwMDAw&#xA;MDAwMjAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMAAABgB2YWx1ZXMDAAEAMQEAAQBAAQAw&#xA;AQDDsQBANDQwMDY1MDA3NjAwNDUwMDc4MDA3MDAwNzIwMDY1MDA3MzAwNzMwMDJFMDA1ODAwNzQw&#xA;MDcyMDA2MTAwNDIwMDYxMDA3MjAwNzMwMDJFMDA0NDAwNkYwMDYzMDA2QjAwNjkwMDZFMDA2NzAw&#xA;MzIwMDMwMDAzMTAwMzAwMDJFMDA1NjAwNjkwMDY1MDA3NzAwNzMwMDJFMDA1NzAwNjkwMDY0MDA2&#xA;NzAwNjUwMDc0MDAyRTAwNTcwMDY5MDA2NDAwNjcwMDY1MDA3NDAwNDMwMDZGMDA2RTAwNzQwMDYx&#xA;MDA2OTAwNkUwMDY1MDA3MjAwAQAyAQAwADAzMDAwMDAwMDAwMDAwMDAwMTAwMDAwMDAwMDAwMDAw&#xA;MDAwMDAwMDAwMDAwMDAwMAAABwBtYXRjaGVkAwABADEAAO+/v+e/vwEAMAAA77+/57+/AQAyAAAB&#xA;AAAABQBuYW1lcwMAAQAxAQAKAFduZENhcHRpb24BADABABAAQ2xyRnVsbENsYXNzTmFtZQEAMgEA&#xA;BQBJbmRleAAA&quot;&gt;Accept Intelligent Fix&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;We replaced the missing object automatically during the runtime, but did not update its recognition criteria.&lt;/li&gt;&lt;li&gt;To update the recognition criteria in the Name Mapping repository, click Accept Intelligent Fix.&lt;/li&gt;&lt;li&gt;To cancel automatic replacement of missing objects during the runtime, disable the &lt;a href=&quot;aqa-help://2196&quot;&gt;Enable Self-Healing mode&lt;/a&gt; option.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;aqa-help://2220&quot;&gt;Learn more&lt;/a&gt; about possible causes of the issue.&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="message" type="S" value="The &quot;WidgetContainer&quot; object was replaced with a similar object."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 3">
+			<Prp name="stack end" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="45769.5480831829"/>
+			<Prp name="remarks" type="S" value="Possible reasons:&#xA; - An error or warning occurred during the test run. See the preceding log entries to locate and identify the error.&#xA; - The test run was stopped manually.&#xA; - The test run was terminated as a result of the Runner.Halt method call."/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="message" type="S" value="The script execution was interrupted."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="45769.5480800347"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;} th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;During the test run, one or several test objects were not found, and the test engine tried to “heal” your test by replacing missing objects with similar ones automatically. &lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;If a replacement object is selected incorrectly, this can affect further behavior of your test and cause errors.&lt;/li&gt;&lt;li&gt;Please check all the preceding ‘Object was replaced with a similar object’ messages in the test log.&lt;/li&gt;&lt;li&gt;If the found replacement object meets your requirements, make sure to click the &lt;b&gt;Accept Intelligent Fix&lt;/b&gt; button.The mapping criteria will be updated, and the message will no longer appear for that object.&lt;/li&gt;&lt;li&gt;If the found replacement object was not the correct one, please update its mapping criteria manually.&lt;/li&gt;&lt;li&gt;To cancel the automatic replacement of missing objects during the runtime, disable the &lt;a href=&quot;aqa-help://2196&quot;&gt;Enable Self-Healing mode&lt;/a&gt; option.&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="There may be an error (or errors) caused by test self-healing."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 1">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.HealthEdge_Manager.HomeForm.panelControlDetail.homeTab1.WidgetsHost.WidgetContainer.MemberWidgetControl.xtraScrollableControlMembers.TaskRow.panelControlTop.panelControlTaskLinks.SimpleButtonSearch"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object right" type="I" value="1600"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="1580"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="object top" type="I" value="245"/>
+					<Prp name="click point x" type="I" value="1590"/>
+					<Prp name="datetime" type="D" value="45769.714723287"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="255"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="object bottom" type="I" value="265"/>
+					<Prp name="storage file name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="45769.5480726389"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.HealthEdge_Manager.HomeForm.panelControlDetail.homeTab1.WidgetsHost.WidgetContainer.MemberWidgetControl.xtraScrollableControlMembers.TaskRow.panelControlTop.panelControlTaskLinks.SimpleButtonSearch&#xA;(Sys.Process(&quot;HealthEdge.Manager&quot;, 2).WinFormsObject(&quot;HomeForm&quot;).WinFormsObject(&quot;panelControlDetail&quot;).WinFormsObject(&quot;homeTab1&quot;).WinFormsObject(&quot;WidgetsHost&quot;, &quot;&quot;).WinFormsObject(&quot;WidgetContainer&quot;, &quot;&quot;, 2).WinFormsObject(&quot;MemberWidgetControl&quot;).WinFormsObject(&quot;xtraScrollableControlMembers&quot;).WinFormsObject(&quot;TaskRow&quot;).WinFormsObject(&quot;panelControlTop&quot;).WinFormsObject(&quot;panelControlTaskLinks&quot;).WinFormsObject(&quot;SimpleButtonSearch&quot;))"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="item 0">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value=""/>
+			<Prp name="line no" type="I" value="12"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{2BA35B25-71BF-4728-8469-B70538B1F778}"/>
+		</Node>
+		<Node name="stack"/>
+		<Prp name="status" type="I" value="2"/>
+	</Node>
+</Nodes>

@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="item 0">
+			<Prp name="stacktext" type="S" value="Test1"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{42533F9E-CDA8-41BE-BF78-44C4FE1582DA}"/>
+		</Node>
+		<Node name="message 5">
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="45755.5770032523"/>
+			<Prp name="message" type="S" value="RuntimeError: Invalid number of parameters."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="remarks" type="S" value="Python runtime error.&#xA;&#xA;RuntimeError: Invalid number of parameters.&#xA;&#xA;Error location:&#xA;Unit: &quot;TestProject1\TestProject1\Script\Unit1&quot;&#xA;Line: 12 Column: 1."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="stack end" type="I" value="0"/>
+		</Node>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="click point y" type="I" value="168"/>
+					<Prp name="object bottom" type="I" value="171"/>
+					<Prp name="datetime" type="D" value="45755.7384722222"/>
+					<Prp name="image file name" type="S" value="tcvi648674609262081.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="153"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="250"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="34"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.HealthEdge_Manager.SearchDialog.panelTop.panelSearchCriteria.tabControlSearchCriteria.tabPageGeneral.SimpleSupplierSearchCriteria.entityPanelSupplierSearchInput.autoEditSupplierHccIdentifier.panelControlAutoEdit.TextEdit.TextBoxMaskBox"/>
+					<Prp name="click point x" type="I" value="200"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="161"/>
+					<Prp name="object bottom" type="I" value="171"/>
+					<Prp name="datetime" type="D" value="45755.7435725463"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="153"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="250"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="34"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.HealthEdge_Manager.SearchDialog.panelTop.panelSearchCriteria.tabControlSearchCriteria.tabPageGeneral.SimpleSupplierSearchCriteria.entityPanelSupplierSearchInput.autoEditSupplierHccIdentifier.panelControlAutoEdit.TextEdit.TextBoxMaskBox"/>
+					<Prp name="click point x" type="I" value="200"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage1_Dif.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45755.5769072338"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (133, 6) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.HealthEdge_Manager.SearchDialog.panelTop.panelSearchCriteria.tabControlSearchCriteria.tabPageGeneral.SimpleSupplierSearchCriteria.entityPanelSupplierSearchInput.autoEditSupplierHccIdentifier.panelControlAutoEdit.TextEdit.TextBoxMaskBox&#xA;(Sys.Process(&quot;HealthEdge.Manager&quot;).WinFormsObject(&quot;SearchDialog&quot;).WinFormsObject(&quot;panelTop&quot;).WinFormsObject(&quot;panelSearchCriteria&quot;).WinFormsObject(&quot;tabControlSearchCriteria&quot;).WinFormsObject(&quot;tabPageGeneral&quot;).WinFormsObject(&quot;SimpleSupplierSearchCriteria&quot;).WinFormsObject(&quot;entityPanelSupplierSearchInput&quot;).WinFormsObject(&quot;autoEditSupplierHccIdentifier&quot;).WinFormsObject(&quot;panelControlAutoEdit&quot;).WinFormsObject(&quot;TextEdit&quot;, &quot;&quot;).WinFormsObject(&quot;TextBoxMaskBox&quot;, &quot;&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="2"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="date" type="D" value="45755.5768123495"/>
+			<Prp name="message" type="S" value="There is (are) 1 running instance(s) of &quot;C:\Program Files (x86)\HealthEdge\24.1.1\HealthEdgeManager\HealthEdge.Manager.exe&quot;. New instances will not be launched."/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="0"/>
+		</Node>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="click point y" type="I" value="64"/>
+					<Prp name="object bottom" type="I" value="78"/>
+					<Prp name="datetime" type="D" value="45755.7385763889"/>
+					<Prp name="image file name" type="S" value="tcvi6486841252620810.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="37"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="923"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="4"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.HealthEdge_Manager.SearchDialog.BarDockControl.DockedBarControl"/>
+					<Prp name="click point x" type="I" value="68"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="78"/>
+					<Prp name="datetime" type="D" value="45755.7435785069"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="37"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="923"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="4"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.HealthEdge_Manager.SearchDialog.BarDockControl.DockedBarControl"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage3_Dif.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45755.5769137153"/>
+			<Prp name="message" type="S" value="The 'Search' item of the bar control was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.HealthEdge_Manager.SearchDialog.BarDockControl.DockedBarControl&#xA;(Sys.Process(&quot;HealthEdge.Manager&quot;).WinFormsObject(&quot;SearchDialog&quot;).WinFormsObject(&quot;BarDockControl&quot;, &quot;&quot;, 6).WinFormsObject(&quot;DockedBarControl&quot;, &quot;&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="4"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="child data"/>
+		<Node name="message 6">
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stack beginning" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="45755.5770047222"/>
+			<Prp name="message" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;p&gt;The test run has stopped because --&lt;/p&gt;&lt;ul&gt;&lt;li&gt;An error message was posted to the log and&lt;/li&gt;&lt;li&gt;The &lt;a href=&quot;aqa-help://6090&quot;&gt;On error&lt;/a&gt; project property is set to &quot;Stop project&quot; or &quot;Stop current item&quot;.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;If you don't want the test to stop on errors, set this property (&lt;b&gt;Project Editor &amp;rArr; Properties &amp;rArr; Playback&lt;/b&gt;), to &quot;Continue running&quot; or change your test commands so that they do not post errors to the log automatically. For example, if a window or process was not found, use WaitWindow, WaitProcess or similar methods to get the needed object.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;aqa-help://2207&quot;&gt;Read More&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="stack end" type="I" value="1"/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="click point y" type="I" value="-14"/>
+					<Prp name="object bottom" type="I" value="175"/>
+					<Prp name="datetime" type="D" value="45755.7385532407"/>
+					<Prp name="image file name" type="S" value="tcvi648682125262089.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="150"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="29"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.HealthEdge_Manager.SearchDialog.panelTop.panelSearchCriteria.tabControlSearchCriteria.tabPageGeneral.SimpleSupplierSearchCriteria.entityPanelSupplierSearchInput.autoEditSupplierHccIdentifier.panelControlAutoEdit.TextEdit"/>
+					<Prp name="click point x" type="I" value="-251"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="175"/>
+					<Prp name="datetime" type="D" value="45755.7435756829"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="150"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="29"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.HealthEdge_Manager.SearchDialog.panelTop.panelSearchCriteria.tabControlSearchCriteria.tabPageGeneral.SimpleSupplierSearchCriteria.entityPanelSupplierSearchInput.autoEditSupplierHccIdentifier.panelControlAutoEdit.TextEdit"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage2_Dif.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45755.5769100694"/>
+			<Prp name="message" type="S" value="The text '1004052' was entered in the text editor."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.HealthEdge_Manager.SearchDialog.panelTop.panelSearchCriteria.tabControlSearchCriteria.tabPageGeneral.SimpleSupplierSearchCriteria.entityPanelSupplierSearchInput.autoEditSupplierHccIdentifier.panelControlAutoEdit.TextEdit&#xA;(Sys.Process(&quot;HealthEdge.Manager&quot;).WinFormsObject(&quot;SearchDialog&quot;).WinFormsObject(&quot;panelTop&quot;).WinFormsObject(&quot;panelSearchCriteria&quot;).WinFormsObject(&quot;tabControlSearchCriteria&quot;).WinFormsObject(&quot;tabPageGeneral&quot;).WinFormsObject(&quot;SimpleSupplierSearchCriteria&quot;).WinFormsObject(&quot;entityPanelSupplierSearchInput&quot;).WinFormsObject(&quot;autoEditSupplierHccIdentifier&quot;).WinFormsObject(&quot;panelControlAutoEdit&quot;).WinFormsObject(&quot;TextEdit&quot;, &quot;&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="3"/>
+		</Node>
+		<Node name="message 1">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="click point y" type="I" value="701"/>
+					<Prp name="object bottom" type="I" value="713"/>
+					<Prp name="datetime" type="D" value="45755.7384375"/>
+					<Prp name="image file name" type="S" value="tcvi648671828262080.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="693"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="380"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="360"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.HealthEdge_Manager.HomeForm.panelControlDetail.homeTab1.WidgetsHost.WidgetContainer.ProviderWidgetControl.xtraScrollableControlProviders.TaskRow.panelControlTop.panelControlTaskLinks.SimpleButtonSearch"/>
+					<Prp name="click point x" type="I" value="366"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="701"/>
+					<Prp name="object bottom" type="I" value="711"/>
+					<Prp name="datetime" type="D" value="45755.7435631018"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="691"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="378"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="358"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.HealthEdge_Manager.HomeForm.panelControlDetail.homeTab1.WidgetsHost.WidgetContainer.ProviderWidgetControl.xtraScrollableControlProviders.TaskRow.panelControlTop.panelControlTaskLinks.SimpleButtonSearch"/>
+					<Prp name="click point x" type="I" value="368"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage0_Dif.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45755.5769015625"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.HealthEdge_Manager.HomeForm.panelControlDetail.homeTab1.WidgetsHost.WidgetContainer.ProviderWidgetControl.xtraScrollableControlProviders.TaskRow.panelControlTop.panelControlTaskLinks.SimpleButtonSearch&#xA;(Sys.Process(&quot;HealthEdge.Manager&quot;).WinFormsObject(&quot;HomeForm&quot;).WinFormsObject(&quot;panelControlDetail&quot;).WinFormsObject(&quot;homeTab1&quot;).WinFormsObject(&quot;WidgetsHost&quot;, &quot;&quot;).WinFormsObject(&quot;WidgetContainer&quot;, &quot;&quot;, 1).WinFormsObject(&quot;ProviderWidgetControl&quot;).WinFormsObject(&quot;xtraScrollableControlProviders&quot;).WinFormsObject(&quot;TaskRow&quot;).WinFormsObject(&quot;panelControlTop&quot;).WinFormsObject(&quot;panelControlTaskLinks&quot;).WinFormsObject(&quot;SimpleButtonSearch&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="1"/>
+		</Node>
+		<Node name="item 1">
+			<Prp name="stacktext" type="S" value=""/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Prp name="status" type="I" value="2"/>
+	</Node>
+</Nodes>
