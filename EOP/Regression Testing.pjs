@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{A455F314-1DBC-4150-B4FD-2A967706C0A9}">
+	<children>
+		<child name="EOPManual" key="{1069ACBD-9BB2-4B89-9DB0-B583514E86E7}" path="TestProject1\EOPManual.mds" />
+		<child name="Membership_Enrollment" key="{CA5F8905-05C3-4367-BD9D-AFCA3467E618}" path="TestProject2\Membership_Enrollment.mds" />
+	</children>
+	<testItems key="{F6DAE9EF-FEE4-4398-B6DD-BF934EB8838C}">
+		<children>
+			<testItem key="{1069ACBD-9BB2-4B89-9DB0-B583514E86E7}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{CA5F8905-05C3-4367-BD9D-AFCA3467E618}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{E0082227-2AE4-444B-859A-C27B6939A6F2}" />
+	<analysis key="{CEF2CE2E-9095-4D14-8B96-D9DD785026D9}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>

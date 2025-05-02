@@ -1,0 +1,58 @@
+﻿def read_excel_data(file_path, sheet_name):
+    data = []
+    driver = DDT.ExcelDriver(file_path, sheet_name)
+    
+    while not driver.EOF():
+        supplier_id = driver.Value[0]  # First column
+        payment_id = driver.Value[1]  # Second column
+        data.append((supplier_id, payment_id))
+        driver.Next()
+    
+    DDT.CloseDriver(driver.Name)
+    return data
+
+
+def Test2():
+    # Load supplier and payment IDs from Excel
+    excel_file = r"C:\Users\Saroja\OneDrive\Documents\TestComplete 15 Projects\TestProject1\TestProject1"
+    sheet_name = "Sheet1"
+    supplier_payment_data = read_excel_data(excel_file, sheet_name)
+
+    for supplier_id, payment_id in supplier_payment_data:
+        healthEdge_Manager = Aliases.HealthEdge_Manager
+        homeForm = healthEdge_Manager.HomeForm
+        panelControl = homeForm.panelControlDetail
+
+        # Navigate and search by Supplier ID
+        panelControl.homeTab1.WidgetsHost.WidgetContainer.ProviderWidgetControl.xtraScrollableControlProviders.TaskRow.panelControlTop.panelControlTaskLinks.SimpleButtonSearch.ClickButton()
+        searchDialog = healthEdge_Manager.SearchDialog
+        searchDialog.panelTop.panelSearchCriteria.tabControlSearchCriteria.tabPageGeneral.SimpleSupplierSearchCriteria.entityPanelSupplierSearchInput.autoEditSupplierHccIdentifier.panelControlAutoEdit.TextEdit.SetText(str(supplier_id))
+        searchDialog.BarDockControl.DockedBarControl.ClickItem("Search")
+        searchDialog.panelControl1.standaloneBarDockControlTasks.DockedBarControl.ClickItem("View")
+
+        # Navigate to correspondence tab and open correspondence form
+        panelControl.SupplierView.xtraTabControlSupplier.ClickTab("Correspondence")
+        homeForm.BarDockControl.DockedBarControl.ClickItem("Send Correspondence")
+        
+        sendCorrespondenceDlg = healthEdge_Manager.SendCorrespondenceDlg
+        entityPanel = sendCorrespondenceDlg.panelBottom.xtraTabControlEdit.xtraTabPageEdit.CorrespondenceEditControl.xtraScrollableControl1.correspondenceDetails.entityPanelCorrespondence
+        entityPanel.headerGroupControlCorrespondence.lookupCorrespondence.Click(130, 6)
+        healthEdge_Manager.PopupLookUpEditForm.Click(115, 26)
+
+        # Set Payment ID for correspondence
+        entityPanel2 = entityPanel.headerGroupControlCorrespondenceSubject.subEntityPanelCorrespondenceSubject.entityPanelPayment
+        entityPanel2.Click(292, 11)
+        referenceMenuButton = entityPanel2.referenceMenuButtonPayment
+        referenceMenuButton.Click(5, 7)
+        referenceMenuButton.PopupMenu.Click("Look up")
+
+        resolveDialog = healthEdge_Manager.ResolveDialog
+        resolvePanel = resolveDialog.panelControlLeft
+        resolvePanel.panelControlSearchCriteria.xtraScrollableControlSearchCriteria.PaymentSearchCriteria.entityPanelPaymentSearchInput.autoEditCheckNo.panelControlAutoEdit.TextEdit.SetText(str(payment_id))
+        resolvePanel.panelControlSearch.simpleButtonSearch.ClickButton()
+        resolveDialog.panelControlBottom.simpleButtonOK.ClickButton()
+
+        # Send the correspondence and return to home
+        sendCorrespondenceDlg.BarDockControl.DockedBarControl.ClickItem("Send")
+        healthEdge_Manager.PromptForReasonCode.panelControlBottom.simpleButtonOK.ClickButton()
+        homeForm.BarDockControl.DockedBarControl.ClickItem("Home")

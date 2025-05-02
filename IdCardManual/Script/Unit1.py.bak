@@ -1,0 +1,30 @@
+﻿def Test1():
+  healthEdge_Manager = Aliases.HealthEdge_Manager
+  homeForm = healthEdge_Manager.HomeForm
+  panelControl = homeForm.panelControlDetail
+  panelControl.homeTab1.WidgetsHost.WidgetContainer.MemberWidgetControl.xtraScrollableControlMembers.TaskRow.panelControlTop.panelControlTaskLinks.SimpleButtonSearch.ClickButton()
+  searchDialog = healthEdge_Manager.SearchDialog
+  textEdit = searchDialog.panelTop.panelSearchCriteria.tabControlSearchCriteria.tabPageGeneral.SimpleMemberSearchCriteria.entityPanelSearchInput.autoEditHccIdentifier.panelControlAutoEdit.TextEdit
+  textEdit.SetText("90673572H")
+  textEdit.TextBoxMaskBox.Keys("[Enter]")
+  searchDialog.panelControl1.standaloneBarDockControlTasks.DockedBarControl.ClickItem("View")
+  splitContainerControl = panelControl.SubscriptionView.splitContainerControl1
+  splitContainerControl.SplitGroupPanel.subscriptionSummary.subscriptionTreeList.entityPanelSubscription.treeListSubscription.ClickCell(0, "Name")
+  splitContainerControl.SplitGroupPanel2.SubscriptionGeneralView.xtraTabControlSubscription.ClickTab("Correspondence")
+  dockedBarControl = homeForm.BarDockControl.DockedBarControl
+  dockedBarControl.ClickItem("Send Correspondence")
+  sendCorrespondenceDlg = healthEdge_Manager.SendCorrespondenceDlg
+  sendCorrespondenceDlg.panelControlSummary.MemberCorrespondenceSummary.headerGroupControlRecipient.entityPanelCorrespondence.subEntityPanelRecipient.memberLookupControlSummary.subEntityPanelMembership.gridLookUpEditMembers.Click(162, 9)
+  healthEdge_Manager.PopupGridLookUpEditForm.GridControl.ClickCellXY(0, "Member ID", 133, 7)
+  entityPanel = sendCorrespondenceDlg.panelBottom.xtraTabControlEdit.xtraTabPageEdit.CorrespondenceEditControl.xtraScrollableControl1.correspondenceDetails.entityPanelCorrespondence
+  entityPanel.headerGroupControlCorrespondence.lookupCorrespondence.Click(209, 6)
+  popupLookUpEditForm = healthEdge_Manager.PopupLookUpEditForm
+  popupLookUpEditForm.Click(175, 49)
+  entityPanel.headerGroupControlCorrespondenceSubject.subEntityPanelCorrespondenceSubject.memberLookupControl.subEntityPanelMembership.gridLookUpEditMembers.Click(164, 9)
+  healthEdge_Manager.PopupGridLookUpEditForm2.GridControl.ClickCellXY(0, "Name", 1, 6)
+  sendCorrespondenceDlg.BarDockControl.DockedBarControl.ClickItem("Send")
+  promptForReasonCode = healthEdge_Manager.PromptForReasonCode
+  promptForReasonCode.panelReason.lookUpEditReasonCode.Click(79, 6)
+  popupLookUpEditForm.Click(65, 37)
+  promptForReasonCode.panelControlBottom.simpleButtonOK.ClickButton()
+  dockedBarControl.ClickItem("Home")

@@ -1,0 +1,935 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{72C3960C-08C9-4657-9261-DFF0CEF58DB4}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="HealthEdge_Manager" Key="{1722A30D-9234-4548-B86E-A39FDB981236}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="HealthEdge.Manager" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="HomeForm" Key="{18DEA883-EA87-4EF4-BFEF-E8868B861CF6}">
+								<Image FileName="1652699554" Left="-8" Top="-8" Right="1932" Bottom="1032" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="HomeForm" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panelControlDetail" Key="{CF38639F-E7FB-49C3-8D71-D59E57742482}">
+										<Image FileName="1652699554" Left="61" Top="126" Right="1922" Bottom="984" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="panelControlDetail" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="homeTab1" Key="{D8FA51BB-DE9C-4B84-AEF1-ECDB9CFF826A}">
+												<Image FileName="1652699554" Left="71" Top="136" Right="1912" Bottom="974" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="homeTab1" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="WidgetsHost" Key="{791E1CC4-689B-4789-9EAB-86DC904F150D}">
+														<Image FileName="1652699554" Left="71" Top="136" Right="1912" Bottom="974" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="DevExpress.XtraBars.Docking2010.Views.Widget.WidgetsHost" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="WidgetContainer" Key="{052346DF-23DD-40C4-98B7-0DE1E3C4EAA6}">
+																<Image FileName="1652699554" Left="1300" Top="142" Right="1906" Bottom="551" />
+																<Properties>
+																	<Property Name="ClrFullClassName">
+																		<Value Value="DevExpress.XtraBars.Docking2010.Views.Widget.WidgetContainer" />
+																	</Property>
+																	<Property Name="WndCaption">
+																		<Value Value="" />
+																	</Property>
+																	<Property Name="Index">
+																		<Value Value="1" Type="0" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="MemberWidgetControl" Key="{2C91D412-6F3C-4404-93A8-29E137A11C18}">
+																		<Image FileName="1652699554" Left="1305" Top="172" Right="1901" Bottom="546" />
+																		<Properties>
+																			<Property Name="WinFormsControlName">
+																				<Value Value="MemberWidgetControl" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="xtraScrollableControlMembers" Key="{E3BC9A5E-01D6-4A42-8273-F2DB8F633692}">
+																				<Image FileName="1652699554" Left="1305" Top="172" Right="1901" Bottom="546" />
+																				<Properties>
+																					<Property Name="WinFormsControlName">
+																						<Value Value="xtraScrollableControlMembers" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="TaskRow" Key="{9D48A55E-31E8-4AF8-9747-F061F154B4EF}">
+																						<Image FileName="1652699554" Left="1323" Top="241" Right="1707" Bottom="279" />
+																						<Properties>
+																							<Property Name="ClrFullClassName">
+																								<Value Value="HealthEdge.Manager.Controls.TaskRow" />
+																							</Property>
+																							<Property Name="WndCaption">
+																								<Value Value="" />
+																							</Property>
+																							<Property Name="Index">
+																								<Value Value="2" Type="0" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="panelControlTop" Key="{0501B2CF-19A4-4F38-B2C9-C24EEB716AFB}">
+																								<Image FileName="1652699554" Left="1323" Top="241" Right="1707" Bottom="279" />
+																								<Properties>
+																									<Property Name="WinFormsControlName">
+																										<Value Value="panelControlTop" />
+																									</Property>
+																								</Properties>
+																								<Children>
+																									<Child Name="panelControlTaskLinks" Key="{99E1DCD8-3746-4204-8F29-6221B116E460}">
+																										<Image FileName="1652699554" Left="1580" Top="241" Right="1716" Bottom="279" />
+																										<Properties>
+																											<Property Name="WinFormsControlName">
+																												<Value Value="panelControlTaskLinks" />
+																											</Property>
+																										</Properties>
+																										<Children>
+																											<Child Name="SimpleButtonSearch" Key="{821E7B77-CC03-4FCB-BD84-F7DE13509BEB}">
+																												<Image FileName="1652699554" Left="1582" Top="247" Right="1602" Bottom="267" />
+																												<TypeInfo Item0="{CF055976-E4ED-4A8C-8497-01F90A12367D}" />
+																												<Properties>
+																													<Property Name="WinFormsControlName">
+																														<Value Value="SimpleButtonSearch" />
+																													</Property>
+																												</Properties>
+																											</Child>
+																										</Children>
+																									</Child>
+																								</Children>
+																							</Child>
+																						</Children>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="SubscriptionView" Key="{F9F0EDEC-9026-48AA-91A0-6083F383857D}">
+												<Image FileName="-951394787" Left="71" Top="203" Right="1912" Bottom="973" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="SubscriptionView" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="splitContainerControl1" Key="{0D3ECE0E-AC7D-4C25-9F6F-3CF84E4CB69A}">
+														<Image FileName="-951394787" Left="71" Top="203" Right="1912" Bottom="973" />
+														<Properties>
+															<Property Name="WinFormsControlName">
+																<Value Value="splitContainerControl1" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="SplitGroupPanel" Key="{16A41A81-661D-430D-B075-252D06DF03A5}">
+																<Image FileName="-951394787" Left="71" Top="203" Right="1912" Bottom="341" />
+																<Properties>
+																	<Property Name="ClrFullClassName">
+																		<Value Value="DevExpress.XtraEditors.SplitGroupPanel" />
+																	</Property>
+																	<Property Name="WndCaption">
+																		<Value Value="Panel1" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="subscriptionSummary" Key="{FE9C1C0C-4DFB-40B0-A864-56E870143F29}">
+																		<Image FileName="-951394787" Left="71" Top="203" Right="1912" Bottom="341" />
+																		<Properties>
+																			<Property Name="WinFormsControlName">
+																				<Value Value="subscriptionSummary" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="subscriptionTreeList" Key="{C63ABC09-41DB-4060-9112-0CFAE4CB0860}">
+																				<Image FileName="-951394787" Left="71" Top="203" Right="1912" Bottom="341" />
+																				<Properties>
+																					<Property Name="WinFormsControlName">
+																						<Value Value="subscriptionTreeList" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="entityPanelSubscription" Key="{ECF42F4E-1243-4404-A5FB-EB9D3D45A20A}">
+																						<Image FileName="-951394787" Left="71" Top="236" Right="1912" Bottom="341" />
+																						<Properties>
+																							<Property Name="WinFormsControlName">
+																								<Value Value="entityPanelSubscription" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="treeListSubscription" Key="{3E83EF79-44C4-4DC6-98FB-DDC95CA98795}">
+																								<Image FileName="-951394787" Left="71" Top="236" Right="1912" Bottom="341" />
+																								<TypeInfo Item0="{59D0371F-EC2C-4830-876B-02964CD37518}" />
+																								<Properties>
+																									<Property Name="WinFormsControlName">
+																										<Value Value="treeListSubscription" />
+																									</Property>
+																								</Properties>
+																							</Child>
+																						</Children>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+															<Child Name="SplitGroupPanel2" Key="{6C8FEF0A-7200-446E-8E31-64B2C5E67AB0}">
+																<Image FileName="-337294853" Left="71" Top="356" Right="1912" Bottom="974" />
+																<Properties>
+																	<Property Name="ClrFullClassName">
+																		<Value Value="DevExpress.XtraEditors.SplitGroupPanel" />
+																	</Property>
+																	<Property Name="WndCaption">
+																		<Value Value="Panel2" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="SubscriptionGeneralView" Key="{68DA9FE9-DBD1-4941-9E3D-13107776BFFF}">
+																		<Image FileName="-337294853" Left="71" Top="356" Right="1912" Bottom="974" />
+																		<Properties>
+																			<Property Name="WinFormsControlName">
+																				<Value Value="SubscriptionGeneralView" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="xtraTabControlSubscription" Key="{AAD440F8-D650-43D7-86DB-68310213198F}">
+																				<Image FileName="-337294853" Left="71" Top="356" Right="1912" Bottom="974" />
+																				<TypeInfo Item0="{0C38E48A-EE9C-4CA3-8FFF-173864E3A7B0}" />
+																				<Properties>
+																					<Property Name="WinFormsControlName">
+																						<Value Value="xtraTabControlSubscription" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="BarDockControl" Key="{1CE3D3EC-D2B7-4B79-803A-2F71372475F1}">
+										<Image FileName="1934453782" Left="2" Top="31" Right="1922" Bottom="126" />
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value Value="DevExpress.XtraBars.BarDockControl" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="" />
+											</Property>
+											<Property Name="Index">
+												<Value Value="7" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="DockedBarControl" Key="{053DD1F7-BF86-4C45-BEA4-20ADD9EB49ED}">
+												<Image FileName="1934453782" Left="2" Top="61" Right="1922" Bottom="126" />
+												<TypeInfo Item0="{1E527274-1750-4CDA-AB8E-AD98D012E2AF}" />
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value Value="DevExpress.XtraBars.Controls.DockedBarControl" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="" />
+													</Property>
+													<Property Name="Index">
+														<Value Value="2" Type="0" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="SearchDialog" Key="{CE5B4417-139F-4B6A-957B-C9E681E9BE14}">
+								<Image FileName="1115807899" Left="0" Top="0" Right="926" Bottom="361" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="SearchDialog" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panelTop" Key="{482E8237-19CE-435A-B903-61FFD4CC5C0B}">
+										<Image FileName="1115807899" Left="4" Top="78" Right="923" Bottom="362" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="panelTop" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panelSearchCriteria" Key="{5510796C-F57C-4431-AA98-FEAC9D05B153}">
+												<Image FileName="1115807899" Left="4" Top="78" Right="912" Bottom="362" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="panelSearchCriteria" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="tabControlSearchCriteria" Key="{32B858C7-AE89-4CE3-BED1-7E8D7E5C0069}">
+														<Image FileName="1115807899" Left="10" Top="85" Right="905" Bottom="356" />
+														<Properties>
+															<Property Name="WinFormsControlName">
+																<Value Value="tabControlSearchCriteria" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="tabPageGeneral" Key="{9A71DEA2-F485-466D-8D95-79AB2EA60A08}">
+																<Image FileName="1115807899" Left="15" Top="118" Right="900" Bottom="351" />
+																<Properties>
+																	<Property Name="WinFormsControlName">
+																		<Value Value="tabPageGeneral" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="SimpleMemberSearchCriteria" Key="{22129EF5-AE09-488F-A039-6D1126C8C8DF}">
+																		<Image FileName="1115807899" Left="15" Top="118" Right="900" Bottom="351" />
+																		<Properties>
+																			<Property Name="WinFormsControlName">
+																				<Value Value="SimpleMemberSearchCriteria" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="entityPanelSearchInput" Key="{F94CB4DE-BE1A-4F05-9B40-F6B705AB55E2}">
+																				<Image FileName="1115807899" Left="15" Top="118" Right="900" Bottom="351" />
+																				<Properties>
+																					<Property Name="WinFormsControlName">
+																						<Value Value="entityPanelSearchInput" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="autoEditHccIdentifier" Key="{C6FA967B-F191-4DCD-A1EC-CE30BE9A5580}">
+																						<Image FileName="1115807899" Left="21" Top="126" Right="177" Bottom="170" />
+																						<Properties>
+																							<Property Name="WinFormsControlName">
+																								<Value Value="autoEditHccIdentifier" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="panelControlAutoEdit" Key="{30A2E7D5-EE05-4C02-8A69-DCE7FF6DEC24}">
+																								<Image FileName="1115807899" Left="24" Top="126" Right="178" Bottom="170" />
+																								<Properties>
+																									<Property Name="WinFormsControlName">
+																										<Value Value="panelControlAutoEdit" />
+																									</Property>
+																								</Properties>
+																								<Children>
+																									<Child Name="TextEdit" Key="{3C6E3F3F-A6E0-4A50-BE54-3EE8C891EDB9}">
+																										<Image FileName="1115807899" Left="24" Top="145" Right="178" Bottom="170" />
+																										<Properties>
+																											<Property Name="ClrFullClassName">
+																												<Value Value="DevExpress.XtraEditors.TextEdit" />
+																											</Property>
+																											<Property Name="WndCaption">
+																												<Value Value="" />
+																											</Property>
+																										</Properties>
+																										<Children>
+																											<Child Name="TextBoxMaskBox" Key="{4F3729C9-22DF-4FFB-920A-857979280983}">
+																												<Image FileName="1115807899" Left="29" Top="148" Right="173" Bottom="166" />
+																												<TypeInfo Item0="{1B54263B-EF5B-47ED-8777-A8D9144AE021}" />
+																												<Properties>
+																													<Property Name="ClrFullClassName">
+																														<Value Value="DevExpress.XtraEditors.TextBoxMaskBox" />
+																													</Property>
+																												</Properties>
+																											</Child>
+																										</Children>
+																									</Child>
+																								</Children>
+																							</Child>
+																						</Children>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="panelControl1" Key="{C690F352-579E-489B-90CC-C2A9BCEBB429}">
+										<Image FileName="1732295755" Left="4" Top="362" Right="1247" Bottom="738" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="panelControl1" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="standaloneBarDockControlTasks" Key="{2310636A-0C85-44B6-8B0E-DD58DD110A8B}">
+												<Image FileName="1732295755" Left="6" Top="365" Right="1244" Bottom="405" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="standaloneBarDockControlTasks" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="DockedBarControl" Key="{75D382EC-1A0B-4CE8-9D20-21B8E6E3E198}">
+														<Image FileName="1732295755" Left="6" Top="365" Right="1244" Bottom="395" />
+														<TypeInfo Item0="{1E527274-1750-4CDA-AB8E-AD98D012E2AF}" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value Value="DevExpress.XtraBars.Controls.DockedBarControl" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="SendCorrespondenceDlg" Key="{9F391AC5-2B4A-40B7-8979-4AAEF11477AE}">
+								<Image FileName="-1415130685" Left="0" Top="0" Right="848" Bottom="749" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="SendCorrespondenceDlg" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panelControlSummary" Key="{E533AD59-411B-48EC-9909-BAF9D0EB7A8C}">
+										<Image FileName="-1415130685" Left="4" Top="79" Right="844" Bottom="180" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="panelControlSummary" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="MemberCorrespondenceSummary" Key="{47119417-5FCF-46EC-BD93-9BCBE3C6EB5E}">
+												<Image FileName="-1415130685" Left="4" Top="79" Right="844" Bottom="180" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="MemberCorrespondenceSummary" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="headerGroupControlRecipient" Key="{E517BB3D-3444-4851-B823-D5EA1F53299A}">
+														<Image FileName="-1415130685" Left="4" Top="79" Right="844" Bottom="149" />
+														<Properties>
+															<Property Name="WinFormsControlName">
+																<Value Value="headerGroupControlRecipient" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="entityPanelCorrespondence" Key="{9F7D8A29-87F9-44D9-ADD2-57293F596BC3}">
+																<Image FileName="-1415130685" Left="13" Top="106" Right="842" Bottom="142" />
+																<Properties>
+																	<Property Name="WinFormsControlName">
+																		<Value Value="entityPanelCorrespondence" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="subEntityPanelRecipient" Key="{7C0EE13D-8E81-4B30-B706-ED09A7A97D5B}">
+																		<Image FileName="-1415130685" Left="13" Top="106" Right="842" Bottom="142" />
+																		<Properties>
+																			<Property Name="WinFormsControlName">
+																				<Value Value="subEntityPanelRecipient" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="memberLookupControlSummary" Key="{CB856438-964D-480E-BF63-92842B609431}">
+																				<Image FileName="-1415130685" Left="13" Top="106" Right="842" Bottom="142" />
+																				<Properties>
+																					<Property Name="WinFormsControlName">
+																						<Value Value="memberLookupControlSummary" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="subEntityPanelMembership" Key="{87610FA1-2E79-4517-898D-604CD29B2328}">
+																						<Image FileName="-1415130685" Left="13" Top="111" Right="842" Bottom="142" />
+																						<Properties>
+																							<Property Name="WinFormsControlName">
+																								<Value Value="subEntityPanelMembership" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="gridLookUpEditMembers" Key="{CD6F56C3-F3A7-406B-8E53-2D0626CEDA2D}">
+																								<Image FileName="-1415130685" Left="160" Top="114" Right="380" Bottom="139" />
+																								<TypeInfo Item0="{C7D6F13C-3A5F-4DAD-ABD8-97D8B1246A3C}" />
+																								<Properties>
+																									<Property Name="WinFormsControlName">
+																										<Value Value="gridLookUpEditMembers" />
+																									</Property>
+																								</Properties>
+																							</Child>
+																						</Children>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="panelBottom" Key="{DE5747A0-2712-429A-9D36-3CFA024968B8}">
+										<Image FileName="1336232600" Left="4" Top="180" Right="844" Bottom="715" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="panelBottom" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="xtraTabControlEdit" Key="{89CE7DB3-0B29-4C9B-B9D6-8871959602E0}">
+												<Image FileName="1336232600" Left="4" Top="186" Right="844" Bottom="715" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="xtraTabControlEdit" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="xtraTabPageEdit" Key="{F2663F2C-FC17-4B20-9CD0-B4D89D082CB0}">
+														<Image FileName="1336232600" Left="9" Top="220" Right="839" Bottom="710" />
+														<Properties>
+															<Property Name="WinFormsControlName">
+																<Value Value="xtraTabPageEdit" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="CorrespondenceEditControl" Key="{0D79AFDD-68DA-4483-8766-A29AF79A7E38}">
+																<Image FileName="1336232600" Left="9" Top="220" Right="839" Bottom="710" />
+																<Properties>
+																	<Property Name="WinFormsControlName">
+																		<Value Value="CorrespondenceEditControl" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="xtraScrollableControl1" Key="{F6252581-CF1D-4D62-9A96-5ECC4678E289}">
+																		<Image FileName="1336232600" Left="9" Top="220" Right="839" Bottom="710" />
+																		<Properties>
+																			<Property Name="WinFormsControlName">
+																				<Value Value="xtraScrollableControl1" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="correspondenceDetails" Key="{6CA89789-528C-41EC-8906-3B4DD4BE569D}">
+																				<Image FileName="1336232600" Left="9" Top="220" Right="839" Bottom="570" />
+																				<Properties>
+																					<Property Name="WinFormsControlName">
+																						<Value Value="correspondenceDetails" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="entityPanelCorrespondence" Key="{4453AD55-BB89-47C4-8299-B6411055B3F4}">
+																						<Image FileName="1336232600" Left="9" Top="220" Right="839" Bottom="570" />
+																						<Properties>
+																							<Property Name="WinFormsControlName">
+																								<Value Value="entityPanelCorrespondence" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="headerGroupControlCorrespondence" Key="{8AB6FE66-4AF6-4EBD-BBDA-19856A2ED980}">
+																								<Image FileName="1336232600" Left="9" Top="220" Right="839" Bottom="383" />
+																								<Properties>
+																									<Property Name="WinFormsControlName">
+																										<Value Value="headerGroupControlCorrespondence" />
+																									</Property>
+																								</Properties>
+																								<Children>
+																									<Child Name="lookupCorrespondence" Key="{227C5FC4-8B0B-4595-BFD8-4DF7C761DF54}">
+																										<Image FileName="1336232600" Left="118" Top="256" Right="509" Bottom="281" />
+																										<TypeInfo Item0="{C7D6F13C-3A5F-4DAD-ABD8-97D8B1246A3C}" />
+																										<Properties>
+																											<Property Name="WinFormsControlName">
+																												<Value Value="lookupCorrespondence" />
+																											</Property>
+																										</Properties>
+																									</Child>
+																								</Children>
+																							</Child>
+																							<Child Name="headerGroupControlCorrespondenceSubject" Key="{676E7B3E-E5F4-45A2-861F-32D56E2D9699}">
+																								<Image FileName="-1985389920" Left="9" Top="420" Right="818" Bottom="775" />
+																								<Properties>
+																									<Property Name="WinFormsControlName">
+																										<Value Value="headerGroupControlCorrespondenceSubject" />
+																									</Property>
+																								</Properties>
+																								<Children>
+																									<Child Name="subEntityPanelCorrespondenceSubject" Key="{172DA428-C16B-4E71-8097-29089179B85E}">
+																										<Image FileName="-1985389920" Left="18" Top="448" Right="816" Bottom="766" />
+																										<Properties>
+																											<Property Name="WinFormsControlName">
+																												<Value Value="subEntityPanelCorrespondenceSubject" />
+																											</Property>
+																										</Properties>
+																										<Children>
+																											<Child Name="memberLookupControl" Key="{540AB5BA-BECB-4427-8D74-789C1581BB22}">
+																												<Image FileName="-1985389920" Left="18" Top="448" Right="816" Bottom="484" />
+																												<Properties>
+																													<Property Name="WinFormsControlName">
+																														<Value Value="memberLookupControl" />
+																													</Property>
+																												</Properties>
+																												<Children>
+																													<Child Name="subEntityPanelMembership" Key="{ED3C5BB2-99A1-4771-9D14-217CF49EF42F}">
+																														<Image FileName="-1985389920" Left="18" Top="453" Right="816" Bottom="484" />
+																														<Properties>
+																															<Property Name="WinFormsControlName">
+																																<Value Value="subEntityPanelMembership" />
+																															</Property>
+																														</Properties>
+																														<Children>
+																															<Child Name="gridLookUpEditMembers" Key="{A681A0DE-F97C-43C7-AFBD-98E70C2B0D9F}">
+																																<Image FileName="-1985389920" Left="160" Top="455" Right="380" Bottom="480" />
+																																<TypeInfo Item0="{C7D6F13C-3A5F-4DAD-ABD8-97D8B1246A3C}" />
+																																<Properties>
+																																	<Property Name="WinFormsControlName">
+																																		<Value Value="gridLookUpEditMembers" />
+																																	</Property>
+																																</Properties>
+																															</Child>
+																														</Children>
+																													</Child>
+																												</Children>
+																											</Child>
+																										</Children>
+																									</Child>
+																								</Children>
+																							</Child>
+																						</Children>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="BarDockControl" Key="{A4CBCBDF-EFBB-4927-9244-76DBCF111B86}">
+										<Image FileName="1811606007" Left="4" Top="38" Right="844" Bottom="79" />
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value Value="DevExpress.XtraBars.BarDockControl" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="" />
+											</Property>
+											<Property Name="Index">
+												<Value Value="6" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="DockedBarControl" Key="{FF16AECD-9439-4C08-AE4E-B8F7106DF343}">
+												<Image FileName="1811606007" Left="4" Top="38" Right="844" Bottom="79" />
+												<TypeInfo Item0="{1E527274-1750-4CDA-AB8E-AD98D012E2AF}" />
+												<Properties>
+													<Property Name="ClrFullClassName">
+														<Value Value="DevExpress.XtraBars.Controls.DockedBarControl" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="PopupGridLookUpEditForm" Key="{5898F67B-8694-46C7-B66C-99D10B32CECF}">
+								<Image FileName="587813636" Left="0" Top="0" Right="378" Bottom="406" />
+								<Properties>
+									<Property Name="ClrFullClassName">
+										<Value Value="DevExpress.XtraEditors.Popup.PopupGridLookUpEditForm" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="GridControl" Key="{EAFEC596-760C-4D8B-BDFD-CA479FE525DE}">
+										<Image FileName="587813636" Left="2" Top="1" Right="377" Bottom="376" />
+										<TypeInfo Item0="{CFA5A174-D3EE-4EEC-BD34-5C9C04F6B072}" />
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value Value="DevExpress.XtraGrid.GridControl" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="PopupLookUpEditForm" Key="{F79F66CA-281D-43FD-B380-7E867ADB594D}">
+								<Image FileName="2028158647" Left="0" Top="0" Right="391" Bottom="163" />
+								<TypeInfo Item0="{B3D2DE6B-6083-4215-9094-12B0F633CA36}" />
+								<Properties>
+									<Property Name="ClrFullClassName">
+										<Value Value="DevExpress.XtraEditors.Popup.PopupLookUpEditForm" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="" />
+									</Property>
+									<Property Name="Index">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="PopupGridLookUpEditForm2" Key="{B832652C-C1DC-48FF-897B-06A67B0276D0}">
+								<Image FileName="-388210633" Left="0" Top="0" Right="378" Bottom="406" />
+								<Properties>
+									<Property Name="ClrFullClassName">
+										<Value Value="DevExpress.XtraEditors.Popup.PopupGridLookUpEditForm" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="" />
+									</Property>
+									<Property Name="Index">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="GridControl" Key="{00ABAF50-9631-4E96-AF68-DD3269160C93}">
+										<Image FileName="-388210633" Left="2" Top="1" Right="377" Bottom="376" />
+										<TypeInfo Item0="{CFA5A174-D3EE-4EEC-BD34-5C9C04F6B072}" />
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value Value="DevExpress.XtraGrid.GridControl" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="PromptForReasonCode" Key="{A9C06B32-5D02-427C-9F05-854DA57BF35E}">
+								<Image FileName="482016177" Left="0" Top="0" Right="498" Bottom="175" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="PromptForReasonCode" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panelReason" Key="{D69629A2-2FEA-40B3-A39E-088D110C0B6D}">
+										<Image FileName="482016177" Left="0" Top="38" Right="498" Bottom="129" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="panelReason" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="lookUpEditReasonCode" Key="{BAE87DE5-3D4A-4F9A-BBEE-BD0C8C829F23}">
+												<Image FileName="482016177" Left="158" Top="45" Right="468" Bottom="70" />
+												<TypeInfo Item0="{C7D6F13C-3A5F-4DAD-ABD8-97D8B1246A3C}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="lookUpEditReasonCode" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="panelControlBottom" Key="{98F3F75B-AC41-4ABC-9733-950DD199EBBE}">
+										<Image FileName="469458765" Left="0" Top="129" Right="498" Bottom="178" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="panelControlBottom" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="simpleButtonOK" Key="{297670B1-8F06-4499-A132-35CA936D79AE}">
+												<Image FileName="469458765" Left="290" Top="138" Right="384" Bottom="169" />
+												<TypeInfo Item0="{CF055976-E4ED-4A8C-8497-01F90A12367D}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="simpleButtonOK" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="HealthEdge_Manager" Owner="{1722A30D-9234-4548-B86E-A39FDB981236}">
+			<Child Name="HomeForm" Owner="{18DEA883-EA87-4EF4-BFEF-E8868B861CF6}">
+				<Child Name="panelControlDetail" Owner="{CF38639F-E7FB-49C3-8D71-D59E57742482}">
+					<Child Name="homeTab1" Owner="{D8FA51BB-DE9C-4B84-AEF1-ECDB9CFF826A}">
+						<Child Name="WidgetsHost" Owner="{791E1CC4-689B-4789-9EAB-86DC904F150D}">
+							<Child Name="WidgetContainer" Owner="{052346DF-23DD-40C4-98B7-0DE1E3C4EAA6}">
+								<Child Name="MemberWidgetControl" Owner="{2C91D412-6F3C-4404-93A8-29E137A11C18}">
+									<Child Name="xtraScrollableControlMembers" Owner="{E3BC9A5E-01D6-4A42-8273-F2DB8F633692}">
+										<Child Name="TaskRow" Owner="{9D48A55E-31E8-4AF8-9747-F061F154B4EF}">
+											<Child Name="panelControlTop" Owner="{0501B2CF-19A4-4F38-B2C9-C24EEB716AFB}">
+												<Child Name="panelControlTaskLinks" Owner="{99E1DCD8-3746-4204-8F29-6221B116E460}">
+													<Child Name="SimpleButtonSearch" Owner="{821E7B77-CC03-4FCB-BD84-F7DE13509BEB}" />
+												</Child>
+											</Child>
+										</Child>
+									</Child>
+								</Child>
+							</Child>
+						</Child>
+					</Child>
+					<Child Name="SubscriptionView" Owner="{F9F0EDEC-9026-48AA-91A0-6083F383857D}">
+						<Child Name="splitContainerControl1" Owner="{0D3ECE0E-AC7D-4C25-9F6F-3CF84E4CB69A}">
+							<Child Name="SplitGroupPanel" Owner="{16A41A81-661D-430D-B075-252D06DF03A5}">
+								<Child Name="subscriptionSummary" Owner="{FE9C1C0C-4DFB-40B0-A864-56E870143F29}">
+									<Child Name="subscriptionTreeList" Owner="{C63ABC09-41DB-4060-9112-0CFAE4CB0860}">
+										<Child Name="entityPanelSubscription" Owner="{ECF42F4E-1243-4404-A5FB-EB9D3D45A20A}">
+											<Child Name="treeListSubscription" Owner="{3E83EF79-44C4-4DC6-98FB-DDC95CA98795}" />
+										</Child>
+									</Child>
+								</Child>
+							</Child>
+							<Child Name="SplitGroupPanel2" Owner="{6C8FEF0A-7200-446E-8E31-64B2C5E67AB0}">
+								<Child Name="SubscriptionGeneralView" Owner="{68DA9FE9-DBD1-4941-9E3D-13107776BFFF}">
+									<Child Name="xtraTabControlSubscription" Owner="{AAD440F8-D650-43D7-86DB-68310213198F}" />
+								</Child>
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="BarDockControl" Owner="{1CE3D3EC-D2B7-4B79-803A-2F71372475F1}">
+					<Child Name="DockedBarControl" Owner="{053DD1F7-BF86-4C45-BEA4-20ADD9EB49ED}" />
+				</Child>
+			</Child>
+			<Child Name="SearchDialog" Owner="{CE5B4417-139F-4B6A-957B-C9E681E9BE14}">
+				<Child Name="panelTop" Owner="{482E8237-19CE-435A-B903-61FFD4CC5C0B}">
+					<Child Name="panelSearchCriteria" Owner="{5510796C-F57C-4431-AA98-FEAC9D05B153}">
+						<Child Name="tabControlSearchCriteria" Owner="{32B858C7-AE89-4CE3-BED1-7E8D7E5C0069}">
+							<Child Name="tabPageGeneral" Owner="{9A71DEA2-F485-466D-8D95-79AB2EA60A08}">
+								<Child Name="SimpleMemberSearchCriteria" Owner="{22129EF5-AE09-488F-A039-6D1126C8C8DF}">
+									<Child Name="entityPanelSearchInput" Owner="{F94CB4DE-BE1A-4F05-9B40-F6B705AB55E2}">
+										<Child Name="autoEditHccIdentifier" Owner="{C6FA967B-F191-4DCD-A1EC-CE30BE9A5580}">
+											<Child Name="panelControlAutoEdit" Owner="{30A2E7D5-EE05-4C02-8A69-DCE7FF6DEC24}">
+												<Child Name="TextEdit" Owner="{3C6E3F3F-A6E0-4A50-BE54-3EE8C891EDB9}">
+													<Child Name="TextBoxMaskBox" Owner="{4F3729C9-22DF-4FFB-920A-857979280983}" />
+												</Child>
+											</Child>
+										</Child>
+									</Child>
+								</Child>
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="panelControl1" Owner="{C690F352-579E-489B-90CC-C2A9BCEBB429}">
+					<Child Name="standaloneBarDockControlTasks" Owner="{2310636A-0C85-44B6-8B0E-DD58DD110A8B}">
+						<Child Name="DockedBarControl" Owner="{75D382EC-1A0B-4CE8-9D20-21B8E6E3E198}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="SendCorrespondenceDlg" Owner="{9F391AC5-2B4A-40B7-8979-4AAEF11477AE}">
+				<Child Name="panelControlSummary" Owner="{E533AD59-411B-48EC-9909-BAF9D0EB7A8C}">
+					<Child Name="MemberCorrespondenceSummary" Owner="{47119417-5FCF-46EC-BD93-9BCBE3C6EB5E}">
+						<Child Name="headerGroupControlRecipient" Owner="{E517BB3D-3444-4851-B823-D5EA1F53299A}">
+							<Child Name="entityPanelCorrespondence" Owner="{9F7D8A29-87F9-44D9-ADD2-57293F596BC3}">
+								<Child Name="subEntityPanelRecipient" Owner="{7C0EE13D-8E81-4B30-B706-ED09A7A97D5B}">
+									<Child Name="memberLookupControlSummary" Owner="{CB856438-964D-480E-BF63-92842B609431}">
+										<Child Name="subEntityPanelMembership" Owner="{87610FA1-2E79-4517-898D-604CD29B2328}">
+											<Child Name="gridLookUpEditMembers" Owner="{CD6F56C3-F3A7-406B-8E53-2D0626CEDA2D}" />
+										</Child>
+									</Child>
+								</Child>
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="panelBottom" Owner="{DE5747A0-2712-429A-9D36-3CFA024968B8}">
+					<Child Name="xtraTabControlEdit" Owner="{89CE7DB3-0B29-4C9B-B9D6-8871959602E0}">
+						<Child Name="xtraTabPageEdit" Owner="{F2663F2C-FC17-4B20-9CD0-B4D89D082CB0}">
+							<Child Name="CorrespondenceEditControl" Owner="{0D79AFDD-68DA-4483-8766-A29AF79A7E38}">
+								<Child Name="xtraScrollableControl1" Owner="{F6252581-CF1D-4D62-9A96-5ECC4678E289}">
+									<Child Name="correspondenceDetails" Owner="{6CA89789-528C-41EC-8906-3B4DD4BE569D}">
+										<Child Name="entityPanelCorrespondence" Owner="{4453AD55-BB89-47C4-8299-B6411055B3F4}">
+											<Child Name="headerGroupControlCorrespondence" Owner="{8AB6FE66-4AF6-4EBD-BBDA-19856A2ED980}">
+												<Child Name="lookupCorrespondence" Owner="{227C5FC4-8B0B-4595-BFD8-4DF7C761DF54}" />
+											</Child>
+											<Child Name="headerGroupControlCorrespondenceSubject" Owner="{676E7B3E-E5F4-45A2-861F-32D56E2D9699}">
+												<Child Name="subEntityPanelCorrespondenceSubject" Owner="{172DA428-C16B-4E71-8097-29089179B85E}">
+													<Child Name="memberLookupControl" Owner="{540AB5BA-BECB-4427-8D74-789C1581BB22}">
+														<Child Name="subEntityPanelMembership" Owner="{ED3C5BB2-99A1-4771-9D14-217CF49EF42F}">
+															<Child Name="gridLookUpEditMembers" Owner="{A681A0DE-F97C-43C7-AFBD-98E70C2B0D9F}" />
+														</Child>
+													</Child>
+												</Child>
+											</Child>
+										</Child>
+									</Child>
+								</Child>
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="BarDockControl" Owner="{A4CBCBDF-EFBB-4927-9244-76DBCF111B86}">
+					<Child Name="DockedBarControl" Owner="{FF16AECD-9439-4C08-AE4E-B8F7106DF343}" />
+				</Child>
+			</Child>
+			<Child Name="PopupGridLookUpEditForm" Owner="{5898F67B-8694-46C7-B66C-99D10B32CECF}">
+				<Child Name="GridControl" Owner="{EAFEC596-760C-4D8B-BDFD-CA479FE525DE}" />
+			</Child>
+			<Child Name="PopupLookUpEditForm" Owner="{F79F66CA-281D-43FD-B380-7E867ADB594D}" />
+			<Child Name="PopupGridLookUpEditForm2" Owner="{B832652C-C1DC-48FF-897B-06A67B0276D0}">
+				<Child Name="GridControl" Owner="{00ABAF50-9631-4E96-AF68-DD3269160C93}" />
+			</Child>
+			<Child Name="PromptForReasonCode" Owner="{A9C06B32-5D02-427C-9F05-854DA57BF35E}">
+				<Child Name="panelReason" Owner="{D69629A2-2FEA-40B3-A39E-088D110C0B6D}">
+					<Child Name="lookUpEditReasonCode" Owner="{BAE87DE5-3D4A-4F9A-BBEE-BD0C8C829F23}" />
+				</Child>
+				<Child Name="panelControlBottom" Owner="{98F3F75B-AC41-4ABC-9733-950DD199EBBE}">
+					<Child Name="simpleButtonOK" Owner="{297670B1-8F06-4499-A132-35CA936D79AE}" />
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
